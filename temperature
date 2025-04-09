@@ -1,0 +1,16 @@
+package com.company;
+import java.util.Scanner;
+public class temp {
+   public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Informe a temperatura do seu local: ");
+       double temp = sc.nextDouble();
+
+
+       if(temp >= 30){
+           System.out.println("Está quente!!");
+       }else {
+           System.out.println("Está de boa!");
+       }
+   }
+}
