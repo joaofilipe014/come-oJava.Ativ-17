@@ -1,0 +1,16 @@
+package com.company;
+import java.util.Scanner;
+public class nota {
+   public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Informe a sua nota: ");
+       int nota = sc.nextInt();
+
+
+       if(nota >= 7){
+           System.out.println("Você tem nota para passar, parabéns!");
+       }else {
+           System.out.println("Não alcnçou a média, tente de novo.");
+       }
+   }
+}
